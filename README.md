@@ -27,7 +27,7 @@ To use Vite+Tailwind in any future project, here are the steps you can follow.
 
 1. `mkdir rock-client && cd rock-client`
 2. `npm create vite@latest . -- --template react`
-3. `npm install -D tailwindcss postcss autoprefixer`
+3. `npm install -D tailwindcss postcss autoprefixer react-router-dom`
 4. `npx tailwindcss init -p`
 5. Replace the contents of `tailwind.config.js` with the following.
    ```js
