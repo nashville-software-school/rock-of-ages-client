@@ -5,8 +5,8 @@ import "./Login.css"
 export const Register = () => {
     const [email, setEmail] = useState("admina@straytor.com")
     const [password, setPassword] = useState("straytor")
-    const [firstName, setLastName] = useState("Admina")
-    const [lastName, setFirstName] = useState("Straytor")
+    const [firstName, setFirstName] = useState("Admina")
+    const [lastName, setLastName] = useState("Straytor")
     const existDialog = useRef()
     const navigate = useNavigate()
 
